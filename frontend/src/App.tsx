@@ -1,7 +1,7 @@
 import { useState, FormEvent } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { LogIn, UserPlus, Trophy, LogOut, ChevronRight, CheckCircle2, XCircle, Settings, Trash2, X } from 'lucide-react';
-import { QUESTIONS } from './constants';
+import { QUESTIONS } from './data/constants';
 import { storageService } from './services/storageService';
 
 type User = {
